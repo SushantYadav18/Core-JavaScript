@@ -1,0 +1,1 @@
+console.log('This is a javascript external file which is linked to the index.html file');
