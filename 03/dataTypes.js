@@ -3,40 +3,48 @@ console.log('this is Datatypes ')
 //1.Numbers
 
 let num = 25;
-let num1= 30;
- console.log(num + num1);
+let num1 = 30;
+console.log(num + num1);
 
 
- //Strings
+//Strings
 
- let firstName=('Shusant');
-  let lastNAme =('Yadav');
-   
-  console.log(firstName + ' ' + lastNAme)
+let firstName = ('Shusant');
+let lastNAme = ('Yadav');
 
-  // booleans
+console.log(firstName + ' ' + lastNAme)
 
-  let lastLogin = true;
-  let previous = false;
+// booleans
 
-  console.log(lastLogin , previous)
+let lastLogin = true;
+let previous = false;
 
-  //Null Means any (Like : number, string ,booleans)
+console.log(lastLogin, previous)
 
-  let age=null;
+//Null Means any (Like : number, string ,booleans)
 
-  console.log(age)
+let age = null;
 
-  //objects
+console.log(age)
 
-  const Details= {
-       name:'sushant',
-       age:25 ,
-       address:'kathamandu',
-       student: true ,
-       experience:null
-  }
+//objects
 
-  console.log(Details) 
-  console.log(Details.address)
-  console.log(Details.experience)
+const Details = {
+     name: 'sushant',
+     age: 25,
+     address: 'kathamandu',
+     student: true,
+     experience: null
+}
+
+console.log(Details)
+console.log(Details.address)
+console.log(Details.experience)
+
+
+
+//Basics operators -,+ ,* ,/ ,% ,++ ,--
+
+console.log('2' + 2);
+console.log('2' * 5)
+console.log(typeof('Suhant'))
