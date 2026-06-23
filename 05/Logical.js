@@ -24,5 +24,13 @@
 //     default: console.log('Invalid Number');
 //         break;
 // }
+ const age=30;
+ const gender='male';
+
+ if (age>=30 && gender == 'male') {
+    console.log('You are Adult Male')
+   
+ }
+
 
 
