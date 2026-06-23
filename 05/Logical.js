@@ -24,13 +24,28 @@
 //     default: console.log('Invalid Number');
 //         break;
 // }
- const age=30;
+
+//Logical Operator
+//AND Operator
+ const age=10;
  const gender='male';
 
  if (age>=30 && gender == 'male') {
     console.log('You are Adult Male')
    
- }
+ } else
+    console.log('Condition not match , so you are not Adult ')
 
+ 
+//OR Operator   
+const age2 =25
+const gender1='female'
+
+if (age2>=30 || gender1 == 'male') {
+    console.log('You are Adult male ')
+    
+} else
+console.log('Condition not Match ')
+ 
 
 
