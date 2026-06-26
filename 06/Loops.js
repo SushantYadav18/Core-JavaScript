@@ -9,21 +9,27 @@ for(let j=0; j<10; j++) {
 
 //while loop
 
-let i = 1;
+// let i = 1;
 
-while (i <= 5) {
-    console.log(i);
-    i++;
-}
+// while (i <= 5) {
+//     console.log(i);
+//     i++;
+// }
 
 //do while
 
- const k=0;
+//  const i=0;
 
- do {
-    console.log(k);
-    k++;
-} while (k <= 5);
+//  do {
+//     console.log(i);
+//     i++;
+// } while (i <= 5);
+
+
+for (let i = 0; i < 5; i++) {    
+  console.log('This will run 5 times' + i); 
+}
+
 
 
 
